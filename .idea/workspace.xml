@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2feba9ae-6ddd-4aa7-8822-a9fcf10d8b1a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/readFromBucketWriteToPb/WriteToPb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/readFromFileAndWriteToBucket/Computations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/readFromFileAndWriteToBucket/MakeAgeFn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/readFromFileAndWriteToBucket/RemoveHeader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/readFromPbWriteToBq/ConvertorStringsBq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/readFromPbWriteToBq/WriteToBq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/AveragePriceProcesingInput.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/car.csv" afterDir="false" />
-    </list>
+    <list default="true" id="2feba9ae-6ddd-4aa7-8822-a9fcf10d8b1a" name="Changes" comment="working with Buckets ,Pubsub and bigQuery" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -116,6 +105,21 @@
       <option name="presentableId" value="Default" />
       <updated>1668694464995</updated>
     </task>
+    <task id="LOCAL-00001" summary="working with Buckets ,Pubsub and bigQuery">
+      <created>1669306317243</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669306317243</updated>
+    </task>
+    <task id="LOCAL-00002" summary="working with Buckets ,Pubsub and bigQuery">
+      <created>1669306338649</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669306338649</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -128,5 +132,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="working with Buckets ,Pubsub and bigQuery" />
+    <option name="LAST_COMMIT_MESSAGE" value="working with Buckets ,Pubsub and bigQuery" />
   </component>
 </project>

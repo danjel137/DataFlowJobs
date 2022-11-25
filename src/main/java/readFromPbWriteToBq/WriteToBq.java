@@ -26,7 +26,7 @@ public class WriteToBq {
         options.setJobName("readFromPBWriteToBqWithTableROw");
 
         final Pipeline pipeline = Pipeline.create(options);
-        PCollection<TableRow> dataFromPB = pipeline.apply("ReadFromPubSub", PubsubIO.readStrings().fromSubscription("projects/symmetric-hull-368913/subscriptions/danjelpubsub"))
+        PCollection<TableRow> dataFromPB = pipeline.apply("ReadFromPubSub", PubsubIO.readStrings().fromTopic("projects/symmetric-hull-368913/topics/danjelpubsub"))
 
                 .apply("AddToArrayKVModelYear", ParDo.of(new DoFn<String, KV<String, String>>() {
                     @ProcessElement
